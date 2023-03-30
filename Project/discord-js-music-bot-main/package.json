@@ -1,0 +1,27 @@
+{
+  "name": "intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.15.0",
+    "@discordjs/opus": "^0.5.3",
+    "@discordjs/rest": "^0.5.0",
+    "@discordjs/voice": "^0.14.0",
+    "and": "^0.0.3",
+    "avconv": "^3.1.0",
+    "avconv_id3": "^2.0.0",
+    "discord-api-types": "^0.33.5",
+    "discord-player": "^5.4.0",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.1",
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-static": "^5.1.0",
+    "nodemon": "^2.0.20"
+  }
+}

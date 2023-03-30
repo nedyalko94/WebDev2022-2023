@@ -1,0 +1,12 @@
+li{
+    list-style: none;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus{
+    outline:none;
+    box-shadow:none;
+}
+
+/* .customInput:focus{
+    outline:none;
+    box-shadow:none;
+} */

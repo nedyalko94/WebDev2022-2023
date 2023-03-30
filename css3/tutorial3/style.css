@@ -1,0 +1,101 @@
+html, body{
+    margin: 0; 
+    padding: 0;
+}
+header{ background-color: red;
+    padding: 3px;
+    color: aliceblue;
+    text-align: center;
+
+
+}
+nav{
+
+    background-color:blue;
+    padding: 3px;
+    color: aliceblue;
+
+}
+nav>ul{
+    list-style-type:none;
+    text-align: center;
+
+}
+nav>ul>li{
+    display: inline;
+    font-size: 20pt;
+    margin-right: 1em;
+}
+
+
+aside{
+    background-color: blueviolet;
+    padding: 3px;
+    width: 23%;
+    float: left;
+    margin: 5px;
+    
+}
+aside>ul{
+    list-style-type: none;
+    font-size: 18pt;
+    
+}
+main{
+    background-color: aqua;
+    width: 75%;
+    float: right;
+    margin: 5px;
+
+}
+footer{
+    background-color: black;
+    clear: both;
+    padding: 3px;
+    text-align: center;
+    margin: 5px;
+    color: aliceblue;
+    padding: 5px;
+
+
+}
+article{
+    
+    
+    background-color: green;
+    color: black;
+}
+article>p{
+  /*  width: 300px;
+        white-space: nowrap;
+        text-overflow:ellipsis;
+    overflow: hidden;*/
+    column-count: 3;
+   
+}
+.gallery-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: 3fr 1fr 2fr;
+    grid-gap: 2px;
+
+}
+.box{
+    background-color: red;
+    border: 3px solid black;
+    min-height: 100px;
+    margin: 1px;
+    animation: myanimation ease-in-out 2s;
+
+}
+@keyframes myanimation {
+    0%{
+        transform:rotate(0deg);
+
+    }
+    100%{
+        transform:rotate(360deg);
+        
+    }
+    
+}

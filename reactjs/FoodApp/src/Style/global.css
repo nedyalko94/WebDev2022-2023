@@ -1,0 +1,20 @@
+body{
+    background-color: #f8f9fa;
+}
+
+li{
+    list-style: none;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus ,input:focus,input:active{
+    outline:none ;
+    box-shadow:none;
+}
+.btn:active{
+    /* padding: 0.7rem 0 0.7rem 0; */
+    background-color: rgb(8, 23, 240);
+}
+
+
+.mainContainer{
+    min-height: 100vh;
+}

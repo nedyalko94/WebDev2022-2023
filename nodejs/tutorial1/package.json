@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-ap",
+  "version": "1.0.0",
+  "description": "my first app",
+  "main": "index.js",
+  "scripts": {
+    "test": "asdasdsadn",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "a"
+  ],
+  "author": "nedyalko",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {}
+}

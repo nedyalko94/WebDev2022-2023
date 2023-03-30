@@ -1,0 +1,28 @@
+
+https://regexr.com
+https://www.youtube.com/watch?v=rhzKDrUiJVk
+
+1:05 what is regEx
+1:50 introduction and flags
+3:40 + match one or more
+4:18 ? optional
+4:48 * zero or more
+5:16 . anything except a new line
+5:50 \ to cancel anything after
+6:18 \w for words
+6:37 negative versions
+6:56 {} to indicate a quantity
+7:45 [] group and ranges
+8:38 () own groups
+9:13 how | works
+9:53 combination of () | and {}
+11:00 ^ beginning of new paragraph and multiline
+12:00 $ end of statement
+until there the 90% of regular expressions
+
+12:50 (?<=) lookbehind
+14:02 (?<!) negative lookbehind
+14:27 (?=) lookahead and negative lookahead
+15:20 example of a phone number
+18:15 <?myGroup> name groups
+20:20  (?: ...) non capture group

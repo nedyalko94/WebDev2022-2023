@@ -1,0 +1,108 @@
+*::before,*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* html{
+  margin: 0;
+  padding: 0;
+} */
+body{
+  margin: 0;
+  background-color: rgb(0, 0, 0);
+  
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5vh 5vw ;
+ 
+  background-color: rgb(0, 0, 0);
+}
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 35%;
+  /* max-width: 100%; */
+  max-height: 100vh;
+  background-color: rgb(0, 0, 0);
+  border: 5px solid rgb(6, 6, 6);
+  box-shadow: 3px 2px 5px 4px rgb(66, 92, 242),
+    -3px -2px 5px 4px rgb(66, 92, 242),
+    -5px -5px 10px 6px rgba(255, 255, 255, 0.714),
+    5px 5px 10px 6px rgba(255, 255, 255, 0.714);
+  border-radius: 20px 20px;
+}
+.photoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* gap: 30px; */
+  min-width: 30vw;
+}
+
+
+
+#photo1,#photo2 {
+  margin:2% ;
+  width: 40%;
+  height: 50vh;
+  /* height: 610px; */
+  border-radius: 20px 20px;
+  box-shadow: 3px 2px 5px 4px rgb(199, 146, 146),
+    -2px -3px 10px 6px rgba(248, 241, 241, 0.714);
+}
+img{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px 20px;
+  /* object-fit:contain; */
+}
+
+
+.result-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+#result,
+#result1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+  /* margin: 30px 30px; */
+  height: 5vh;
+  background-color: rgb(250, 249, 249);
+  border-radius: 20px;
+  background-color: rgb(250, 0, 0);
+  box-shadow: 3px 2px 5px 4px #9ef7ef, -2px -3px 10px 6px #f8f1f1b6;
+  border-radius: 20px 20px;
+  
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 30px;
+    width: 100%;
+}
+#play {
+  width: 95%;
+  height: 14vh;
+  font-size: 3rem;
+  border-radius: 5px 5px 20px 20px;
+  box-shadow: 3px 2px 5px 4px #c79292, -2px -3px 10px 6px #f8f1f1b6;
+  border-radius: 20px 20px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .photoContainer {
+   
+    min-width: 80vw;
+  }
+}

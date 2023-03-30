@@ -1,0 +1,195 @@
+body{
+    width: 100vh;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+svg{
+    width: 400px;
+    height: 400px;
+   
+}
+
+.cls-0{
+    stroke-dasharray: 558;
+    stroke-dashoffset: 558;
+    animation: signature 15s ease;
+}
+
+@keyframes signature {
+    to{
+        stroke-dashoffset: 0;
+    }
+    
+}
+
+.cls-1{
+    stroke-dasharray: 704;
+    stroke-dashoffset: 704;
+    animation: signature 15s ease;
+}
+
+@keyframes signature {
+    to{
+        stroke-dashoffset: 0;
+    }
+    
+}
+
+
+.cls-2{
+    stroke-dasharray: 839;
+    stroke-dashoffset: 0;
+    animation: signature2 5s ease-in;
+}
+
+@keyframes signature2 {
+    from{
+        stroke-dashoffset: -839;
+
+    }
+    to{
+        stroke-dashoffset: 0;
+    }
+    
+}
+
+
+.cls-4{
+    stroke-dasharray: 572;
+    stroke-dashoffset: 0;
+    animation: signature4 5s ease-in;
+}
+
+@keyframes signature4 {
+    from{
+        stroke-dashoffset: 572;
+
+    }
+    to{
+        stroke-dashoffset: 0;
+    }
+    
+}
+
+/* 
+let test = document.querySelector(".cls-2")
+undefined
+
+test.getTotalLength()
+839.0579223632812
+
+in chrome console
+
+
+
+*/
+
+/* Swag animation */
+
+/* .swag{
+    stroke-dasharray: 572;
+    stroke-dashoffset: 0;
+    animation: swag 3s ease-in forwards;
+}
+@keyframes swag {
+    from{
+        stroke-dashoffset: 572;
+        fill: rgb(255, 255, 255);
+
+    }
+    to{
+        fill:  #000008;
+
+       
+        stroke-dashoffset: 0;
+    }
+    
+} */
+/* all in the same time  */
+
+
+
+/* with delay */
+
+#s-2{
+    stroke-dasharray: 572;
+    stroke-dashoffset: 572;
+    animation: swag 2s ease-in forwards;
+    /* animation-delay: 2s; */
+}
+#s-3{
+    stroke-dasharray: 572;
+    stroke-dashoffset: 572;
+    animation: swag 2s ease-in forwards;
+    animation-delay: 2s;
+}
+#s-4{
+    stroke-dasharray: 572;
+    stroke-dashoffset: 572;
+    animation: swag 2s ease-in forwards;
+    animation-delay: 4s;
+}
+#s-5{
+    stroke-dasharray: 572;
+    stroke-dashoffset: 572;
+    animation: swag 2s ease-in forwards;
+    animation-delay: 6s;
+}
+#s-6{
+    stroke-dasharray: 572;
+    stroke-dashoffset: 572;
+    animation: swag 2s ease-in forwards;
+    animation-delay: 8s;
+}
+#s-7{
+    stroke-dasharray: 572;
+    stroke-dashoffset: 572;
+    animation: swag 2s ease-in forwards;
+    animation-delay: 10s;
+}
+#s-8{
+    stroke-dasharray: 572;
+    stroke-dashoffset: 572;
+    animation: swag 2s ease-in forwards;
+    animation-delay: 12s;
+}
+#s-9{
+    stroke-dasharray: 572;
+    stroke-dashoffset: 572;
+    animation: swag 2s ease-in forwards;
+    animation-delay: 14s;
+}
+#s-10{
+    stroke-dasharray: 572;
+    stroke-dashoffset: 572;
+    animation: swag 2s ease-in forwards;
+    animation-delay: 16s;
+}
+
+
+
+
+@keyframes swag {
+    0%{
+        stroke-dashoffset: 572;
+        fill: rgba(255, 255, 255, 0.007);
+
+    }
+    90%{
+        
+
+       
+        stroke-dashoffset: 0;
+    }
+    100%{
+        fill:  #faf8f8;
+        /* stroke-dashoffset: 0; */
+
+    }
+    
+} 

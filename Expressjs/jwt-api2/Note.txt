@@ -1,0 +1,4 @@
+npm i bcryptjs express jsonwebtoken cors mongoose --save
+
+bcrypt > hashing plainText passwords
+jsonwebtoken > generate unique token for each user session

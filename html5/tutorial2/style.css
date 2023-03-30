@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Comic%20Neue');
+
+li{
+    list-style-type: none;
+    display: inline;
+    
+}
+
+ul{
+    text-align: center;
+}
+
+a{
+    text-decoration: none !important;
+    color: brown;
+    font-family: 'Comic Neue', 'Times New Roman'
+}
+
+.nav-item{
+    font-family: sans-serif !important;
+}
+
+.active{
+    color: green;
+}
+
+#navbar{
+    background-color:cadetblue;
+}
+
+i{
+    color: white !important;
+}

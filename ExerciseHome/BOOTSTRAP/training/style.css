@@ -1,0 +1,13 @@
+.container-fluid{
+    height: 100vh;
+    object-position: left bottom;
+    
+}
+img{
+    
+   height: 100vh;
+    object-position: 100% 100%;
+    object-fit: fill;
+}
+   
+

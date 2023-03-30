@@ -1,0 +1,19 @@
+{
+  "name": "greet",
+  "version": "1.0.0",
+  "description": "greeting package Ned",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev":"nodemon index.js"
+  },
+  "keyword": [
+    "greeting",
+    "Ned"
+  ],
+  "author": "Ned",
+  "license": "ISC",
+  "dependencies": {
+    "upper-case": "^2.0.2"
+  }
+}

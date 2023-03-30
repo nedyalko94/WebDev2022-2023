@@ -1,0 +1,9 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+/* select all and limit  box to the border
+ Example if i have 400px box that will be to the border 
+normally (def)400 px is to the end of content  */
+

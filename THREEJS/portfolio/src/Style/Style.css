@@ -1,0 +1,271 @@
+body{
+    background-color: rgb(3, 2, 2) !important;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 15;
+    margin: 0;
+    padding: 0 !important;
+    background-color:transparent  !important;
+   
+    
+}
+.header2{
+    background-color:transparent  !important;
+}
+.linkStyle{
+    color: rgb(235, 246, 255) !important;
+}
+/* h1{
+    color: rgb(245, 245, 245)!important;
+    position: absolute;  
+    top: 20%;
+    z-index: 10;
+    cursor:crosshair;
+    min-height: 10rem;
+} */
+
+/* .welcomeContainer{
+    min-height: 10rem;
+    transition: color 5sec linear ;
+
+}
+
+.welcomeContainer span:hover{
+    background: -webkit-linear-gradient(rgba(253, 253, 253, 0.876), rgba(95, 144, 250, 0.991));
+    -webkit-background-clip: text;
+    background-clip:text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4rem;
+    transform: rotate(7deg) translateX(0px);
+} */
+
+
+#three-canvas-container{
+    height: 100vh!important;
+    z-index: 0;
+}
+.Container{
+    position: absolute;
+    z-index: 10;
+    color: rgb(158, 252, 7);
+    top :14%;
+    left:40%;
+    max-width:20%;
+   
+
+}
+@media only screen and (max-width: 1600px) {
+    .Container{
+        top:15%;
+        left: 20%;
+        max-width: 60%;
+    }
+  }
+@media only screen and (max-width: 1024px) {
+    .Container{
+        top:25%;
+        left: 0%;
+        max-width: 100%;
+    }
+  }
+@media only screen and (max-width: 600px) {
+    .Container{
+        top:25%;
+        left: 0;
+        max-width: 100%;
+    }
+  }
+.CenteredDiv{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* position:relative; */
+    /* right:-30%; */
+    /* min-width: 20vw;
+    max-width: 25vw; */
+    border-radius: 15px; 
+    padding: 15px;
+    background-color: rgba(58, 58, 48, 0.89);
+    letter-spacing: 1px;
+    
+}
+@media only screen and (max-width: 1024px) {
+    .CenteredDiv{
+        font-size: 1.5rem;
+        padding: 1rem;
+       
+    }
+}
+@media only screen and (max-width: 600px) {
+    .CenteredDiv{
+        font-size: 10px;
+        padding: 1rem;
+       
+    }
+}
+
+
+/* .wrapContainer{
+    width: 100vw;
+    height: 100vh;
+} */
+.ProjectContainer{
+    position: absolute;
+    z-index: 10;
+    top :40%;
+    left :40%;
+
+}
+.Carousel{
+
+
+/* padding: 2em; */
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+}
+
+.box{
+    position: relative;
+    width: 400px;
+    height:400px ;
+    /* background-color: blue; */
+    transform-style: preserve-3d;
+    animation:animate 20s linear infinite;
+
+} 
+@keyframes animate{
+    0%{
+        transform:perspective(2000px) rotateY(0deg);
+    }
+    100%{
+        transform:perspective(2000px) rotateY(360deg);
+    }
+}
+
+.box:hover{
+    animation-play-state: paused;
+
+
+   
+
+    
+}
+/* .box span:active{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    z-index: 10;
+    transform-style: flat;
+    perspective-origin:center;
+    transform: rotateY(30deg) rotateZ(0deg) rotateX(0deg) ;
+    transform: translateX(0px)translateY(0px) translateZ(0px);
+
+   
+
+} */
+
+
+  .box :nth-child(1) {
+    position: absolute;
+    top: 0;
+    left:0 ;
+    width: 100%;
+    height: 90%;
+    transform-origin:center  ;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg) translateZ(400px);
+    animation: rotateChild 20s linear infinite;
+} 
+.box :nth-child(2){
+    position: absolute;
+    top: 0;
+    left:0 ;
+    width: 100%;
+    height: 90%;
+    transform-origin:center  ;
+    transform-style: preserve-3d;
+    transform: rotateY(90deg) translateZ(400px);
+    animation: rotateChild 20s linear infinite;
+
+} 
+.box :nth-child(3){
+    position: absolute;
+    top: 0;
+    left:0 ;
+    width: 100%;
+    height: 90%;
+    transform-origin:center;
+    transform-style: preserve-3d;
+    transform: rotateY(180deg) translateZ(400px);
+    animation: rotateChild 20s linear infinite;
+
+} 
+.box :nth-child(4){
+    position: absolute;
+    top: 0;
+    left:0 ;
+    width: 100%;
+    height: 90%;
+    transform-origin:center;
+    transform-style: preserve-3d;
+    transform: rotateY(270deg) translateZ(400px);
+    animation: rotateChild 20s linear infinite;
+
+} 
+/* @keyframes rotateChild{
+   100%
+   {
+    transform: translateZ(400px) rotateY(360deg);
+   }
+} */
+
+ .box div iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Off_On_Icon{
+    position: absolute;
+    top:90%;
+    right:5%;
+    width: auto;
+    z-index: 10;
+    cursor: pointer;
+
+}
+.instruction{
+    position: absolute;
+    top:83.5%;
+    right:5%;
+    width: auto;
+    z-index: 10;
+    cursor: help;
+}
+.formIcon{
+    position: absolute;
+    top:77.5%;
+    right:5%;
+    width: auto;
+    z-index: 10;
+    cursor: help;
+
+}
+
+
+.progressBarContainer{
+    width: 400px !important;
+    /* height: 100vh !important; */
+  
+}
+.progressBar{
+    border-radius: 15px;
+}

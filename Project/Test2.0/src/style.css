@@ -1,0 +1,84 @@
+.container{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+   perspective:5em;
+    /* perspective-origin: 50% -2em;  */
+
+}
+.CarouselContainer{
+    width: 100%;
+  
+
+    /* perspective: 1000px; */
+}
+.carousel{
+    transform-style: preserve-3d;
+    animation: rotate 20s linear infinite;
+}
+.carousel figure iframe{
+    position: absolute;
+    width: 30%;
+    box-sizing: border-box;
+}
+.carousel:hover {
+    animation-play-state: paused;
+}
+
+.project1{
+   top:30%;
+   left:10%;
+
+   animation: selfRotate 20s linear infinite;
+
+
+}
+
+.project2{
+    top:50%;
+    left:50%;
+     animation: selfRotate 20s linear infinite;
+
+     
+ }
+/* @keyframes  rotate {
+    0% {
+        transform:  rotateY(0deg) ;
+    }
+    25%{
+        transform: rotateY(90deg) ;
+    }
+    50%{
+        transform:  rotateY(180deg)  ;
+    }
+    75%{
+        transform:  rotateY(270deg) ;
+    }
+
+    100% {
+        transform: rotateY(360deg) ;
+    }
+} */
+
+@keyframes selfRotate {
+    0%{
+        transform: rotateY(0deg);
+    }
+    25%{
+        transform :rotateY(-90deg) scaleX(3) ;
+    }
+  
+    50%{
+        transform: rotateY(-180deg) translateY(100px) ;
+    }
+    75%
+    {
+        transform:rotateY(-270deg) ;
+    }
+    
+    100%{
+      transform:rotateY(-359deg) ;
+    } 
+}

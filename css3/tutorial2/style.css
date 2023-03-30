@@ -1,0 +1,178 @@
+body {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/*box model*/
+.container {
+
+    background-color: rgb(10, 10, 10);
+
+    width: 200px;
+    height: 200px;
+    /*
+    padding-top: 5px;
+    padding-left: 20px;
+    clock wise from top
+    */
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 3% 6% 0;
+    outline: 10px rgb(166, 224, 5) solid;
+    border: 10px solid red;
+
+
+}
+
+.container>p {
+    color: rgb(245, 238, 238);
+    font-size: 20pt;
+    text-shadow: 5px 4px 4px rgb(65, 214, 27);
+    transform: rotate(-05deg);
+    letter-spacing: 10px;
+
+
+}
+
+.content {
+    font-size: 40px;
+    width: 100%;
+    background-color: rgb(19, 17, 17);
+    padding: 1em;
+    width: auto;
+    text-decoration: none;
+
+}
+
+.content>a {
+    color: rgb(209, 216, 223);
+    text-decoration: none;
+}
+
+.content>a:hover {
+    color: rgb(12, 238, 12);
+    text-decoration: none;
+
+
+}
+
+.content>a:visited {
+    color: rgb(74, 74, 124);
+    text-decoration: none;
+
+}
+
+.menu>li {
+    color: rgb(227, 227, 238);
+    display: inline;
+    list-style-type: none;
+    font-size: 40px;
+    margin: 50px;
+
+}
+
+.menu>li:hover {
+
+    color: rgb(248, 40, 3);
+    font-size: 50px;
+
+
+
+
+}
+
+.under {
+
+    border-bottom: 1px solid rgb(212, 248, 9);
+    padding-bottom: 5px;
+}
+
+.main {
+    text-align: center;
+    
+    /* 1 em = 10px*/
+}
+
+.main>#user_records {
+    margin: 0 auto;
+    outline: 2px dashed rgb(88, 85, 85);
+
+
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 0.3em;
+
+
+}
+
+#user_records>tbody>tr:hover {
+    background-color: rgba(14, 11, 11, 0.829);
+    color: aliceblue;
+
+}
+
+th {
+    background-color: rgb(15, 15, 15);
+    color: white;
+
+}
+
+/*
+static 
+relative
+absolute
+*/
+.boxcontainer>div {
+    width: 100px;
+    height: 100px;
+    color: aliceblue;
+    padding: 3px;
+    position: absolute;
+}
+
+.boxcontainer {
+    position: relative;
+    z-index: 1;
+}
+
+.box1 {
+    background-color: rgb(66, 27, 173);
+    left: 10px;
+    top: 10px;
+}
+
+.box2 {
+    background-color: rgb(173, 27, 129) ;
+    left: 20px;
+    top: 20px;
+}
+
+.box3 {
+    background-color: rgb(13, 216, 40);
+    left:30px;
+    top: 30px;
+    z-index: -2;
+}
+
+.box4 {
+    background-color: rgb(236, 127, 2);
+    left:50px;
+    top: 50px;
+    z-index: -1;
+}
+footer{
+    background-color: aqua;
+    padding: 1em;
+    color: blue;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+

@@ -1,0 +1,26 @@
+.carousel-item>img{
+    
+    object-fit: scale-down;
+    object-position: 25% 25%;
+}
+
+webdev.body{
+    background: url(https://i.pinimg.com/originals/35/87/d5/3587d5888f837503b5af01bb9e47ebfc.jpg);
+    background-size: cover;
+    
+}
+.webdev.footer{
+    background-color: transparent !important
+}
+.bi-wrench-adjustable{
+    color: rgb(255, 8, 0);
+    font-size: 500px;
+    font-weight: bold;
+    font-style: italic;
+}
+.bi-wallet2 {
+    color: rgb(255, 0, 0);
+    font-size: 90px;
+    font-weight: bold;
+    
+}

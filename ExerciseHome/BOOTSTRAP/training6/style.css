@@ -1,0 +1,11 @@
+#carouselExampleSlidesOnly{
+    height: 50vh;
+    object-position: left bottom;
+    
+}
+img{
+    
+   height: 50vh;
+    object-position: 100% 100%;
+    object-fit: fill;
+}

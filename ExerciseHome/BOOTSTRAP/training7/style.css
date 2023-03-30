@@ -1,0 +1,8 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    background-color: beige !important ; 
+}
+img{
+    max-height: 600px !important;
+}

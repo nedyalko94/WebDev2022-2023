@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Command</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+    
+   <p class="Term"> 
+        <h1>Terms</h1>
+        <br> directory-repository - folder 
+        <br> terminal  or command line -interface for text command 
+        <br>  cli -command line interface  
+        <br> cd  - change directory 
+        <br> repository - directory  or folder place where project is hold 
+        <br> github - website where your repository is hold 
+   </p>
+           
+    <p class="Commands">
+        <h1>Commands </h1> 
+        <table>
+                <tr>
+                <th> Commands</th>
+                <th>Explanation</th>
+        </tr>
+                
+        <tr>
+                <td>git --version</td>
+                <td> check the version</td>
+        </tr>
+        <tr>
+                <td> git clone @github.com:username/repositoryName.git</td>
+                <td>clone "download repository from github"</td>
+        </tr>
+        <tr>
+                <td>git pull</td>
+                <td>download change from github/repository</td>
+        </tr>
+         <tr>
+                <td>  cd   </td>
+                <td>change directory/going to directory folder </td>
+         </tr>
+         <tr>
+                <td>cd ../</td>
+                <td>going back  / leaving folder</td>
+         </tr>  
+         <tr>
+                <td>ls -la</td>
+                <td> list all files even hidden one </td>
+         </tr>     
+         <tr>
+                <td>git status</td>
+                <td> checking the status</td>
+         </tr>  
+         <tr>
+                <td>git add . </td>
+                <td>for adding -track all file</td>
+         </tr>
+         <tr>
+                <td>git add name.format</td>
+                <td>add spec file</td>
+         </tr>
+         <tr>
+                <td> git init </td>
+                <td>add new folder or new file to git</td>
+         </tr>
+         <tr>
+                <td>git commit -m "you have to have message" -m "some description"</td>
+                <td> commit  </td>
+         </tr>
+         <tr>
+                <td>git commit -am " short version for add and commit at a same time "</td>
+                <td> for commit and add modified files (for newly created files don't work)</td>
+         </tr>
+         <tr>
+                <td>git push origin main</td>
+                <td>origin is option for location of original place of repository  (main stand for witch branch)
+                </td>
+         </tr>
+         
+         <tr>
+                <td>git remote add origin @github.com:username/repositoryName.git</td>
+                <td>adding new remote origin with ssh (needed for push)</td>
+         </tr>
+         <tr>
+                <td>git remote -v</td>
+                <td>for check if we have add origin</td>
+         </tr>
+         <tr>
+                <td> git push -u origin main</td>
+                <td>u is for set default</td>
+         </tr>
+         <tr>
+                <td>git branch</td>
+                <td>check on witch branch are you</td>
+         </tr>
+         <tr>
+                <td>git checkout main</td>
+                <td> for switching of branch to main</td>
+         </tr>
+         <tr>
+                <td>git diff</td>
+                <td>we can see the diff between 2 branches</td>
+         </tr>
+         <tr>
+                <td>git reset </td>
+                <td>for undoing add</td>
+         </tr>
+         <tr>
+                <td>git reset HEAD~1</td>
+                <td>for undoing already commit file</td>
+         </tr>
+         <tr>
+                <td>git log</td>
+                <td> for checking log of commit</td>
+         </tr>
+         
+         <tr>
+                <td>git reset</td>
+                <td> you can reset/un stage  to exact commit with using hashes from the log
+                        but that don't change the text in the file only in Git</td>
+         </tr>
+         <tr>
+                <td>git reset --hard b50565b41c65a68cff3798c9b35fa594fb633d69</td>
+                <td> reset and delete from text editor</td>
+         </tr>
+         <tr>
+                <td>git push --set-upstream origin test branch</td>
+                <td>this is for new branch that have not been in git</td>
+         </tr>
+         <tr>
+                <td>git push -u origin main</td>
+                <td>this is for new branch that have not been in git (-u stand for upstream)</td>
+         </tr>
+         <tr>
+              <td>git remote rm origin</td>
+              <td>removing origin</td>
+       </tr>
+         <tr>
+                <td>ssh-keygen -t ed25519 -C "your_email@example.com"</td>
+                <td> generate ssh key </td>
+         </tr>
+         <tr>
+              <td>eval "$(ssh-agent -s)"</td>
+              <td>start ssh agent </td>
+       </tr>
+       <tr>
+              <td>ssh-add id_ed25519</td>
+              <td>adding the id_ed25519 to the agent </td>
+       </tr>
+       <tr>
+              <td> git rm --cached nameOfFolder (removing nesting )</td>
+              <td>removing the cache (you have to go locally and delete the folder .git) </td>
+       </tr>
+        </table> 
+        
+  </p>  
+</body>
+</html>

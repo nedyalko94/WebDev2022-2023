@@ -1,0 +1,11 @@
+Model Information:
+* title:	Mestre Yoda #MaioNerdMcTech
+* source:	https://sketchfab.com/3d-models/mestre-yoda-maionerdmctech-9b9fe302981d41da9bfd1ef89e2856db
+* author:	Renan Arruda (https://sketchfab.com/renanalvesarruda)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Mestre Yoda #MaioNerdMcTech" (https://sketchfab.com/3d-models/mestre-yoda-maionerdmctech-9b9fe302981d41da9bfd1ef89e2856db) by Renan Arruda (https://sketchfab.com/renanalvesarruda) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,51 @@
+nav {
+    background-color: rgb(225, 225, 225);
+    padding: 1px;
+}
+
+li {
+    display: inline;
+}
+
+ul {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#home{
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+article > img{
+    width: 100px;
+    float: left;
+    margin: 5px;
+}
+
+#blog{
+    display: flex;
+    width: auto;
+}
+
+footer{
+    background-color:grey;
+    color: azure;
+    padding: 10px;
+    text-align: center;
+}
+
+
+main#login-container {
+    background-color: whitesmoke;
+    padding: 3px;
+}
+
+#gallery{
+    background-color:whitesmoke;
+    
+}

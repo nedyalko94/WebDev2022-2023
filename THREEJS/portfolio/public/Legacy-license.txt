@@ -1,0 +1,11 @@
+Model Information:
+* title:	Legacy-Class Star Destroyer
+* source:	https://sketchfab.com/3d-models/legacy-class-star-destroyer-5b51b11585f3412d86353f4e939a6805
+* author:	lightwarrior (https://sketchfab.com/user3754564)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Legacy-Class Star Destroyer" (https://sketchfab.com/3d-models/legacy-class-star-destroyer-5b51b11585f3412d86353f4e939a6805) by lightwarrior (https://sketchfab.com/user3754564) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

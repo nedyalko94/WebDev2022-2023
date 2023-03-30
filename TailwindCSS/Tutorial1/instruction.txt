@@ -1,0 +1,20 @@
+
+
+1  npm init -y  // project
+npm install -D tailwindcss
+npx tailwindcss init
+2  add a css file and add in it (index.css)
+
+@tailwind base; 
+@tailwind components;
+@tailwind utilities;
+
+3 edit package json 
+3.1 add script 
+"build:css": "tailwind build public/index.css -o public/style.css"
+3.2
+4 install it
+npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+
+
+ -----tailwind build  root of css file -o(output) and destination 

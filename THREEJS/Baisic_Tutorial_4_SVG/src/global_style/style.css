@@ -1,0 +1,19 @@
+
+canvas{
+    background-color: rgb(246, 246, 238);
+    width:100vw !important ;
+    height: 100vh!important;
+    margin: 0;
+    padding: 0;
+    
+}
+h1{
+    font-weight: 800;
+    font-size: 5rem;
+    position: absolute;
+    color:red;
+    top: 0;
+    left: 0;
+    z-index: 10;
+
+}
