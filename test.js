@@ -36,16 +36,16 @@ var students = [
 //     console.log(students[i])
 // }
 
-let car = {
-    model:"c200",
-    brand:"mercedes",
-    color:"blue"
-}
+// let car = {
+//     model:"c200",
+//     brand:"mercedes",
+//     color:"blue"
+// }
 
-for(let value in car ){
-    console.log(value)
-    console.log(car[value])
-}
+// for(let value in car ){
+//     console.log(value)
+//     console.log(car[value])
+// }
 
 
 

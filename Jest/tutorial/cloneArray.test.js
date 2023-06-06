@@ -7,3 +7,4 @@ test(" properly clone array description",()=>{
     expect(cloneArray(array)).toEqual(array) // 
     expect(cloneArray(array)).not.toBe(array) // we are checking if they're not the same array
 })
+
