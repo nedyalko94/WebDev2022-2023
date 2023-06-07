@@ -1,8 +1,11 @@
 
 
 const reverseString = (str)=>{
-    return str.split(''),toLowerCase().reverse().join('')
+    return str.toLowerCase().split('').reverse().join('')
   
 }
 reverseString("asd")
+
+
+
 module.exports = reverseString

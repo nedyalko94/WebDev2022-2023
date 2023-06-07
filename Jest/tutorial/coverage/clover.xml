@@ -1,11 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1686038672469" clover="3.2.0">
-  <project timestamp="1686038672469" name="All files">
-    <metrics statements="24" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="12" coveredmethods="9" elements="36" coveredelements="29" complexity="0" loc="24" ncloc="24" packages="1" files="8" classes="8"/>
+<coverage generated="1686065112251" clover="3.2.0">
+  <project timestamp="1686065112251" name="All files">
+    <metrics statements="37" coveredstatements="33" conditionals="0" coveredconditionals="0" methods="17" coveredmethods="14" elements="54" coveredelements="47" complexity="0" loc="37" ncloc="37" packages="1" files="10" classes="10"/>
+    <file name="BeforeAndAfter.js" path="E:\Programing\GitHub\WebDev2022-2023\Jest\tutorial\BeforeAndAfter.js">
+      <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="21" count="1" type="stmt"/>
+    </file>
     <file name="Subtract.js" path="E:\Programing\GitHub\WebDev2022-2023\Jest\tutorial\Subtract.js">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="2" count="1" type="stmt"/>
       <line num="5" count="1" type="stmt"/>
+    </file>
+    <file name="algorithm.js" path="E:\Programing\GitHub\WebDev2022-2023\Jest\tutorial\algorithm.js">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
     </file>
     <file name="array.js" path="E:\Programing\GitHub\WebDev2022-2023\Jest\tutorial\array.js">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>

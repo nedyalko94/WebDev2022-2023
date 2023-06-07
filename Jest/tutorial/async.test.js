@@ -1,4 +1,4 @@
-const {FetchData,FetchData2} = require('./async')
+const {FetchData} = require('./async')
 
 
 test("user fetch name should be Leanne Graham",async()=>{
