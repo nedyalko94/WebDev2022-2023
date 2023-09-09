@@ -10,6 +10,7 @@ export default function UserList({users}) {
           return(
               <div key={user.id}>
                  <User user={user}/>
+                 {/* component */}
   
               </div>
           )

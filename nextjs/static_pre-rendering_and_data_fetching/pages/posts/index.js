@@ -14,7 +14,10 @@ export default function PostList(props) {
             //     </div>
 
             // )} is optional but can be done like in react
+
+
                 <Link href={`/posts/${post.id}`} passHref key={post.id}>
+                    {/* when we have child that is not .... */}
                 <div key={post.id}>
                 <h2>{post.id}. {post.title}</h2>
                 {/* <div>{post.body}</div> */}

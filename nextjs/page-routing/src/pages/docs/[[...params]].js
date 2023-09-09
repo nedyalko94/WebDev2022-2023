@@ -5,6 +5,7 @@ function Doc(){
     //  ...params catch all routes /docs/... and make them with the same layout like this file 
 
     const router = useRouter()
+    // params is equal to file name in bracket []
     const {params = []} = router.query
     console.log(params) // params is array ot all query
 

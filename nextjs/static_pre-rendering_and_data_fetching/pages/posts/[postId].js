@@ -3,6 +3,7 @@ import { useRouter } from "next/router"
 export default function Post({ post }) {
 const router = useRouter()
 
+// need it with fallback true for backup 
 if(router.isFallback){
     return <h1> Loading ...</h1>
 }
@@ -22,6 +23,9 @@ if(router.isFallback){
 export async function getStaticPaths(){
     const response = await fetch('https://jsonplaceholder.typicode.com/posts')
     const data = await response.json()
+
+
+    // dynamic paths
 
     const paths = data.map(post =>{
         return {
@@ -48,7 +52,7 @@ export async function getStaticPaths(){
         //     }
         // ],
         paths:paths,
-        fallback:false  
+        fallback:true  
         // true -
         /*
          with fallback 1-3  will work fine with hardcode version 
@@ -60,6 +64,9 @@ export async function getStaticPaths(){
              next/server/pages 
 
 }
+
+
+
         */
         // false  - return only the path that are specify if there is no path page will be 404
         //'blocking'

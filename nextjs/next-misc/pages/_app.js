@@ -25,6 +25,7 @@ export default function App({ Component, pageProps }) {
         <title> Global Head title </title>
         <meta name='global head ' content='how to set up custom head  tags title meta tags .....'/>
     </Head>
+    {/* global head but can be create custom on every page  */}
 
       <Header />
       <Component {...pageProps} /> 

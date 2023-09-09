@@ -11,6 +11,7 @@ function Home (){
 
     router.push('/product')
     //  router.replace('/')
+    // navigate to /product
    }
 
 
@@ -18,7 +19,7 @@ function Home (){
     console.log("placing order")
 
      router.replace('/cars')
-    //   navigate you but you can't go back
+    //   navigate you but you can't go back 
    }
 
     return(

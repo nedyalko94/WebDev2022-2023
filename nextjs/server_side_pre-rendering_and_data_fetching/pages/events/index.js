@@ -2,6 +2,8 @@ import React,{useState} from 'react'
 
 export default function index({eventList}) {
     const [Events, setEvents] = useState(eventList)
+
+    
     const fetchSportsEvents = async()=>{
         const response = await fetch (`http://localhost:4000/events?category=sports`)
         const data = await response.json()
@@ -26,6 +28,8 @@ export default function index({eventList}) {
     </div>
   )
 }
+
+
 
 
 

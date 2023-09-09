@@ -1,5 +1,7 @@
 import '@/styles/globals.css'
-import 'bootstrap/dist/css/bootstrap.min.css'
+// global css
+import 'bootstrap/dist/css/bootstrap.min.css' 
+//  bootstrap 
 import { ThemeProvider } from 'styled-components'
 // styled components
 const theme = {

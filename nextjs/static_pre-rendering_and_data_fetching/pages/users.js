@@ -1,5 +1,6 @@
 
-export default function UserList({users}) {
+export default function UserList({users}) { 
+    //  or props
   return (
     <>
         <h1> List of Users</h1>
